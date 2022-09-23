@@ -6,18 +6,27 @@ let ReactDOM = require("react-dom");
 /* Importing react 2nd way*/
 import React from "react";
 import ReactDOM from "react-dom";
-
-var kDOt = "I can't Please Everybody\n -k Dot";
 const root = document.getElementById("root");
+
+var kDOt = "I can't Please Everybody -k Dot.";
+var cole = "Hardest shit out the South since slavery, nigga";
+let currentYear = new Date();
+
 ReactDOM.render(
   <>
-    <h1>{kDOt}</h1>
+    <div>
+      <h1>{`${kDOt} ${cole}`}</h1>
+      <h3>
+        <br></br>
+        <p>Copyright {currentYear.getFullYear()}</p>
+      </h3>
+    </div>
   </>,
   root
 );
 
 /* (3) with Javsscript */
-let h1 = document.createElement("h2");
+let h1 = document.createElement("h1");
 h1.innerHTML = "Sleep";
 root.appendChild(h1);
 
