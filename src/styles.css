@@ -1,4 +1,14 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.heading {
+  color: blue;
+}
+.category {
+  list-style: none;
+  display: flex;
+}
+.category li {
+  margin: 10px;
+}
+.category li img {
+  height: 30vh;
+  width: 30vh;
 }
