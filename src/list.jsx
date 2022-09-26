@@ -1,6 +1,5 @@
-import "./styles.css";
 import React from "react";
-
+import "./styles.css";
 /*var kDOt = "I can't Please Everybody -k Dot.";
 var cole = "Hardest shit out the South since slavery, nigga";
 let currentYear = new Date();

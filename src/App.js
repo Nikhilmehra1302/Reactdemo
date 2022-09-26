@@ -1,4 +1,3 @@
-import "./styles.css";
 import React from "react";
 import ListA from "./list";
 export default function App() {
