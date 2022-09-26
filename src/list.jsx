@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+
 /*var kDOt = "I can't Please Everybody -k Dot.";
 var cole = "Hardest shit out the South since slavery, nigga";
 let currentYear = new Date();
@@ -8,7 +9,7 @@ let li4 =
   "https://comicsense.b-cdn.net/wp-content/uploads/2022/08/cosplay_comicsense.jpg";
 
 let randomImage = "https://picsum.photos/200/300";
-
+/*
 let date = new Date().getHours();
 let customDatestyle = {
   color: "",
@@ -24,6 +25,8 @@ if (date > 4 && date < 12) {
   customDatestyle.color = "green";
   customDatestyle.greetings = "Good Night";
 }
+*/
+
 let ulBorder = {
   border: "3px black solid",
   margin: "10vh"
