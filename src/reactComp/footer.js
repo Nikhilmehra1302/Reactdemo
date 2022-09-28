@@ -1,5 +1,5 @@
 //Import and Export in react
-import "./styles.css";
+import "/src/styles.css";
 
 function Pi() {
   return 3.14;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "/src/styles.css";
 
 /*var kDOt = "I can't Please Everybody -k Dot.";
 var cole = "Hardest shit out the South since slavery, nigga";
@@ -41,23 +41,23 @@ function ListA() {
     <div>
       <ul className="nav">
         <li>
-          <a href="" id="dropdown">
-            top category
+          <a href=" " id="dropdown">
+            Top Category
           </a>
         </li>
 
         <li>
-          <a href="" id="dropdown">
-            shop
+          <a href=" " id="dropdown">
+            Shop
           </a>
         </li>
 
         <li>
-          <a href="">home</a>
+          <a href=" ">Home</a>
         </li>
 
         <li>
-          <a href="">contact</a>
+          <a href=" ">Contact</a>
         </li>
       </ul>
       {

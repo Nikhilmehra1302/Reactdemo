@@ -2,15 +2,23 @@
   padding: 0px;
   margin: 0px;
 }
+.Header {
+  background-color: rgb(235, 164, 11);
+  margin: 0px auto;
+  padding: 16px 12px;
+}
 .heading {
   color: blue;
+}
+.category:hover {
+  background-color: burlywood;
 }
 .category {
   list-style: none;
   display: flex;
 }
 .category li {
-  margin: 10px;
+  margin: 8px;
 }
 .category li img {
   height: 100%;
@@ -24,6 +32,11 @@
   list-style-type: none;
   padding: 0.5%;
   margin-right: 10px;
+}
+.nav li a {
+  font-size: inherit;
+  text-decoration: none;
+  color: darkorange;
 }
 .nav li #dropdown {
   position: relative;

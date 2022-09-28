@@ -1,13 +1,16 @@
 import React from "react";
 //Import and Export in react
-import ListA from "./list";
-import Foot, { Pi, Message } from "./footer";
-import * as Footer from "./footer";
+import ListA from "./reactComp/list";
+import Foot, { Pi, Message } from "./reactComp/footer";
+import * as Footer from "./reactComp/footer";
+import Header from "./reactComp/Header";
 //
 export default function App() {
   return (
     <>
       <div className="App">
+        <Header></Header>
+
         <ListA></ListA>
         {/*<Foot></Foot>*/}
         <Footer.default />
