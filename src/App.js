@@ -4,7 +4,8 @@ import ListA from "./reactComp/list";
 import Foot, { Pi, Message } from "./reactComp/footer";
 import * as Footer from "./reactComp/footer";
 import Header from "./reactComp/Header";
-//
+import Cards from "./reactComp/CardReactProps";
+
 export default function App() {
   return (
     <>
@@ -12,6 +13,9 @@ export default function App() {
         <Header></Header>
 
         <ListA></ListA>
+
+        <Cards></Cards>
+
         {/*<Foot></Foot>*/}
         <Footer.default />
 
