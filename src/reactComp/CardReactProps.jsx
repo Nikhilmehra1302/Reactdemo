@@ -1,9 +1,11 @@
+import arr from "./cardArr";
+import React from "react";
 import "/src/styles.css";
 //React Props
 
 function Card(props) {
   return (
-    <div>
+    <div className="Card">
       <img src={props.source} alt="" />
       <h6>{props.title}</h6>
       <h4>{props.details}</h4>
@@ -28,7 +30,6 @@ export default function Cards() {
           details="Naruto Bijuu Poster"
         />
       </div>
-
       <div className="grid-item">
         <Card
           source="https://cdn.shopify.com/s/files/1/2491/1072/products/image_2_75cca55e-9a92-4f35-94f5-3f30d7914eb1_305x.jpg?v=1580579374"
@@ -36,7 +37,6 @@ export default function Cards() {
           details="Your Name"
         />
       </div>
-
       <div className="grid-item">
         <Card
           source="https://cdn.shopify.com/s/files/1/2491/1072/products/81X1y7YnMJL._SL1500_305x.jpg?v=1575022857"
@@ -44,7 +44,6 @@ export default function Cards() {
           details="Demon Slayer Poster"
         />
       </div>
-
       <div className="grid-item">
         <Card
           source="https://cdn.shopify.com/s/files/1/2491/1072/products/3_305x.jpg?v=1573884151"
@@ -52,12 +51,33 @@ export default function Cards() {
           details="Monkey D Luffy Poster"
         />
       </div>
-
       <div className="grid-item">
         <Card
           source="https://cdn.shopify.com/s/files/1/2491/1072/products/3_305x.jpg?v=1573884151"
           title="One piece"
           details="Monkey D Luffy Poster"
+        />
+      </div>
+      <div className="grid-item">
+        <Card
+          source="https://comicsense.b-cdn.net/wp-content/uploads/2021/03/nami_black_comicsense.jpg"
+          title="DEAD OR ALIVE"
+          details="Nami  wanted poster"
+        />
+      </div>
+      <div className="grid-item">
+        <Card
+          source={arr[0].source}
+          title={arr[0].title}
+          details={arr[0].details}
+        />
+      </div>
+
+      <div className="grid-item">
+        <Card
+          source={arr[1].source}
+          title={arr[1].title}
+          details={arr[1].details}
         />
       </div>
     </div>
