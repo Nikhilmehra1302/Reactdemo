@@ -87,7 +87,7 @@ export default function Cards() {
         <img
           className="exImg"
           src="https://cdn.shopify.com/s/files/1/2491/1072/products/81X1y7YnMJL._SL1500_305x.jpg?v=1575022857"
-          alt=" "
+          alt=""
         />
         <Detail detailInfo="Demon Slayer Poster" />
         <Detail detailInfo="DS" />
