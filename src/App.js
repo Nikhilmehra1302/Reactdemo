@@ -5,7 +5,6 @@ import Foot, { Pi, Message } from "./reactComp/footer";
 import * as Footer from "./reactComp/footer";
 import Header from "./reactComp/Header";
 import Cards from "./reactComp/CardReactProps";
-
 export default function App() {
   return (
     <>
