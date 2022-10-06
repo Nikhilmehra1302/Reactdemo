@@ -13,6 +13,7 @@ const root = document.getElementById("root");
 const apn = createRoot(root);
 
 apn.render(<App />);
+
 /* (3) with Javascript */
 let h1 = document.createElement("h1");
 h1.innerHTML = "Sleep";

@@ -3,8 +3,14 @@ import React from "react";
 import ListA from "./reactComp/list";
 import Foot, { Pi, Message } from "./reactComp/footer";
 import * as Footer from "./reactComp/footer";
-import Header from "./reactComp/Header";
 import Cards from "./reactComp/CardReactProps";
+import Header from "./reactComp/Header";
+
+/* Mapping DATA into Componets*/
+import mapCard from "./reactComp/mappingDatatoComp";
+import arr from "./reactComp/cardArr";
+/* Mappin */
+
 export default function App() {
   return (
     <>
@@ -13,13 +19,15 @@ export default function App() {
 
         <ListA></ListA>
 
-        <Cards></Cards>
+        {/*<Cards></Cards>*/}
+        {arr.map(mapCard)}
 
         {/*<Foot></Foot>*/}
         <Footer.default />
 
         <li>
-          {/*<Pi></Pi>*/}
+          {/*<Pi></Pi>*
+            /}
           <Footer.Pi />
         </li>
         <li>
