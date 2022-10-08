@@ -3,12 +3,13 @@ import React from "react";
 import ListA from "./reactComp/list";
 import Foot, { Pi, Message } from "./reactComp/footer";
 import * as Footer from "./reactComp/footer";
-import Cards from "./reactComp/CardReactProps";
+//import Cards from "./reactComp/CardReactProps";
 import Header from "./reactComp/Header";
 
 /* Mapping DATA into Componets*/
 import mapCard from "./reactComp/mappingDatatoComp";
 import arr from "./reactComp/cardArr";
+import len from "./reactComp/cardArr";
 /* Mappin */
 
 export default function App() {

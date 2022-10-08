@@ -10,11 +10,10 @@ function Card(props) {
     <div className="Card">
       <img src={props.source} alt="" />
       <h6>{props.title}</h6>
-      <h4>{props.details}</h4>
+      <h4>{props.details.substring(0, 7)}</h4>
     </div>
   );
 }
-
 export default function Cards() {
   return (
     <div className="grid-container">

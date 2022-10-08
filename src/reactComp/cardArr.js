@@ -12,4 +12,9 @@ let arr = [
     details: "Captain Levi"
   }
 ];
+/*
+let len = arr.map(function (detailsInfo) {
+  return detailsInfo.details.substring(0, 7);
+});*/
+
 export default arr;
