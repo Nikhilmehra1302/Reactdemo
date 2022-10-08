@@ -9,8 +9,10 @@ import Header from "./reactComp/Header";
 /* Mapping DATA into Componets*/
 import mapCard from "./reactComp/mappingDatatoComp";
 import arr from "./reactComp/cardArr";
-import len from "./reactComp/cardArr";
 /* Mappin */
+
+import Login from "./reactComp/new/RenderingConditions";
+var isLoggedIn = false;
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
         <Header></Header>
 
         <ListA></ListA>
+
+        {isLoggedIn === true ? <h1>Hello User</h1> : <Login />}
 
         {/*<Cards></Cards>*/}
         {arr.map(mapCard)}
