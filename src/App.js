@@ -10,9 +10,10 @@ import Header from "./reactComp/Header";
 import mapCard from "./reactComp/mappingDatatoComp";
 import arr from "./reactComp/cardArr";
 /* Mappin */
-
 import Login from "./reactComp/new/RenderingConditions";
 var isLoggedIn = false;
+
+//react Hooks
 
 export default function App() {
   return (

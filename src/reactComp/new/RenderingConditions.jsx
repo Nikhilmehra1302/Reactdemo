@@ -7,7 +7,6 @@ function Inputt(props) {
   );
 }
 
-var isRegistered = false;
 export default function Login() {
   return (
     <div className="formContainer">
