@@ -1,7 +1,8 @@
 import React from "react";
+
 //Import and Export in react
 import ListA from "./reactComp/list";
-import Foot, { Pi, Message } from "./reactComp/footer";
+//import Foot, { Pi, Message } from "./reactComp/footer";
 import * as Footer from "./reactComp/footer";
 //import Cards from "./reactComp/CardReactProps";
 import Header from "./reactComp/Header";
@@ -11,6 +12,8 @@ import mapCard from "./reactComp/mappingDatatoComp";
 import arr from "./reactComp/cardArr";
 /* Mappin */
 import Login from "./reactComp/new/RenderingConditions";
+import EventHandle from "./reactComp/new/reactHooksUseState";
+
 var isLoggedIn = false;
 
 //react Hooks
@@ -24,7 +27,7 @@ export default function App() {
         <ListA></ListA>
 
         {isLoggedIn === true ? <h1>Hello User</h1> : <Login />}
-
+        <EventHandle />
         {/*<Cards></Cards>*/}
         {arr.map(mapCard)}
 

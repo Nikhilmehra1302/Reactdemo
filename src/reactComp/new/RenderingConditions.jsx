@@ -12,6 +12,8 @@ export default function Login() {
     <div className="formContainer">
       <Inputt type="text" typeHolder="Username" />
       <Inputt type="text" typeHolder="password" />
+      <Inputt type="submit" message="submit" />
     </div>
   );
 }
+export { Inputt };
