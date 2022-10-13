@@ -13,7 +13,8 @@ import arr from "./reactComp/cardArr";
 /* Mappin */
 import Login from "./reactComp/new/RenderingConditions";
 import EventHandle from "./reactComp/new/reactHooksUseState";
-
+import Clock from "./reactComp/new/Clock";
+//import { CounterComponent } from "./reactComp/new/Clock";
 var isLoggedIn = false;
 
 //react Hooks
@@ -23,17 +24,15 @@ export default function App() {
     <>
       <div className="App">
         <Header></Header>
-
         <ListA></ListA>
-
         {isLoggedIn === true ? <h1>Hello User</h1> : <Login />}
         <EventHandle />
+        {/*<CounterComponent></CounterComponent>*/}
+        <Clock />
         {/*<Cards></Cards>*/}
         {arr.map(mapCard)}
-
         {/*<Foot></Foot>*/}
         <Footer.default />
-
         <li>
           {/*<Pi></Pi>*
             /}
