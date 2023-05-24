@@ -45,7 +45,6 @@ function ListA() {
             Top Category
           </a>
         </li>
-
         <li>
           <a href=" " id="dropdown">
             Shop

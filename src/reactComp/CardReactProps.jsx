@@ -89,7 +89,6 @@ export default function Cards() {
           alt=""
         />
         <Detail detailInfo="Demon Slayer Poster" />
-        <Detail detailInfo="DS" />
       </div>
     </div>
   );
