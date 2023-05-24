@@ -8,7 +8,7 @@ let currentYear = new Date();
 let li4 =
   "https://comicsense.b-cdn.net/wp-content/uploads/2022/08/cosplay_comicsense.jpg";
 
-let randomImage = "https://picsum.photos/200/300";
+let randomImage = "https://picsum.photos/300/300";
 /*
 let date = new Date().getHours();
 let customDatestyle = {
